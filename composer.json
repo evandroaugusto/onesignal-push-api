@@ -1,0 +1,27 @@
+{
+  "name": "evandroaugusto/onesignal-push-api",
+  "description": "A Simple API interface to send push notifications using One Signal API",
+  "type": "library",
+  "license": "MIT",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/evandroaugusto/http-client.git"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "evandroaugusto/http-client": "0.*"
+  },
+  "authors": [
+    {
+      "name": "Evandro Oliveira",
+      "email": "evandro@siriusprime.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "evandroaugusto\\OneSignal\\": "src"
+    }
+  }
+}
